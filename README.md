@@ -16,7 +16,7 @@ ttyd
 dnsfilter     
 godproxy    
 https-dns-proxy    
-UPnP
+UPnP    
 oh-my-zsh终端主题
 
 
