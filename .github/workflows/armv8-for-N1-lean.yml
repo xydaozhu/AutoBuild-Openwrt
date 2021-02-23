@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: ARMv8-for-N1
+name: ARMv8-for-N1-lean
 
 on:
   repository_dispatch:
