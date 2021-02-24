@@ -50,7 +50,6 @@ git clone --depth=1 https://github.com/tty228/luci-app-serverchan package/luci-a
 
 # Add luci-app-adguardhome
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-adguardhome package/luci-app-adguardhome
-svn co https://github.com/immortalwrt/packages/trunk/net/adguardhome package/adguardhome
 
 # Add luci-theme-opentopd
 svn co https://github.com/281677160/openwrt-package/trunk/luci-theme-opentopd package/luci-theme-opentopd
@@ -83,10 +82,6 @@ pushd feeds/packages/utils
 rm -rf syncthing
 svn co https://github.com/openwrt/packages/trunk/utils/syncthing
 popd
-
-# Add sub-web with ACL4SSR configs
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/sub-web package/sub-web
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/subconverter package/subconverter
 
 
 
