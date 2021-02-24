@@ -49,7 +49,8 @@ popd
 git clone --depth=1 https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 
 # Add luci-app-adguardhome
-svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome package/luci-app-adguardhome
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-adguardhome package/luci-app-adguardhome
+svn co https://github.com/immortalwrt/packages/trunk/net/adguardhome package/adguardhome
 
 # Add luci-theme-opentopd
 svn co https://github.com/281677160/openwrt-package/trunk/luci-theme-opentopd package/luci-theme-opentopd
@@ -73,6 +74,8 @@ rm -rf https-dns-proxy
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
 popd
 
+# Add luci-theme-edge
+git clone -b 18.06 --depth=1 https://github.com/garypang13/luci-theme-edge package/luci-theme-edge
 
 # preset cores for openclash
 mkdir -p files/etc/openclash/core
