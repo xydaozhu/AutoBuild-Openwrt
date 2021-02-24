@@ -72,6 +72,22 @@ git clone --depth=1 https://github.com/lisaac/luci-lib-docker package/lisaac/luc
 # Add smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
 
+# Fix libssh
+pushd feeds/packages/libs
+rm -rf libssh
+svn co https://github.com/openwrt/packages/trunk/libs/libssh
+popd
+
+# Use snapshots syncthing package
+pushd feeds/packages/utils
+rm -rf syncthing
+svn co https://github.com/openwrt/packages/trunk/utils/syncthing
+popd
+
+# Add sub-web with ACL4SSR configs
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/sub-web package/sub-web
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/subconverter package/subconverter
+
 
 
 # preset cores for openclash

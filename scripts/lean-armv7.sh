@@ -77,6 +77,23 @@ popd
 # Add luci-theme-edge
 git clone -b 18.06 --depth=1 https://github.com/garypang13/luci-theme-edge package/luci-theme-edge
 
+# Fix libssh
+pushd feeds/packages/libs
+rm -rf libssh
+svn co https://github.com/openwrt/packages/trunk/libs/libssh
+popd
+
+# Use snapshots syncthing package
+pushd feeds/packages/utils
+rm -rf syncthing
+svn co https://github.com/openwrt/packages/trunk/utils/syncthing
+popd
+
+# Add sub-web with ACL4SSR configs
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/sub-web package/sub-web
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/subconverter package/subconverter
+
+
 # preset cores for openclash
 mkdir -p files/etc/openclash/core
 open_clash_main_url=$(curl -sL https://api.github.com/repos/vernesong/OpenClash/releases/tags/Clash | grep /clash-linux-armv7 | sed 's/.*url\": \"//g' | sed 's/\"//g')
