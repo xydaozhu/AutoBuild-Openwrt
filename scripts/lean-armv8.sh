@@ -49,7 +49,9 @@ popd
 git clone --depth=1 https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 
 # Add luci-app-adguardhome
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-adguardhome package/luci-app-adguardhome
+git clone https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
+svn co https://github.com/281677160/openwrt-package/trunk/adguardhome package/adguardhome
+
 
 # Add luci-theme-opentopd
 svn co https://github.com/281677160/openwrt-package/trunk/luci-theme-opentopd package/luci-theme-opentopd
