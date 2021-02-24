@@ -5,7 +5,8 @@
 
 ### 编译的设备
 ASUS-ACRH17、竞斗云、R2S、ARMv8镜像     
-其中**ARMv8-for-N1**是合入了**安装至EMMC脚本**的镜像，需要**继续使用**[tuanqing/mknop](https://github.com/tuanqing/mknop)提供的脚本打包成N1等电视盒子的**直刷包**     
+其中**ARMv8-for-N1**是合入了**安装至EMMC脚本**的镜像，需要**继续使用**[tuanqing/mknop](https://github.com/tuanqing/mknop)提供的脚本打包成N1等电视盒子的**直刷包**   
+EMMC脚本来自[tuanqing/install-program](https://github.com/tuanqing/install-program)
 
 
 ### 固件主要内容
