@@ -54,9 +54,6 @@ svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome 
 # Add luci-theme-opentopd
 svn co https://github.com/281677160/openwrt-package/trunk/luci-theme-opentopd package/luci-theme-opentopd
 
-# Add luci-app-chinadns-ng
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-chinadns-ng package/luci-app-chinadns-ng
-
 # Add luci-app-diskman
 git clone --depth=1 https://github.com/SuLingGG/luci-app-diskman package/luci-app-diskman
 mkdir package/parted
