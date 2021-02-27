@@ -4,11 +4,13 @@
 
 
 ### 编译的设备
-ASUS-ACRH17、竞斗云、R2S、ARMv8
+ACRH17、竞斗云、R2S、ARMv8
 
 ### 固件主要内容
-OpenClash+SSRPlus+Passwall+Vssr     
-argon主题与argon设置     
+OpenClash+Bypass+Passwall+Vssr     
+argon主题与argon设置   
+edge主题
+opentopd主题  
 smartdns     
 ttyd     
 dnsfilter     
