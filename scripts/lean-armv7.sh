@@ -24,6 +24,7 @@ svn co https://github.com/immortalwrt/immortalwrt/trunk/package/lean/v2ray packa
 
 # Add Jerrykuku's packages(vssr/jd-daily/argon theme)
 rm -rf package/lean/luci-theme-argon
+rm -rf package/lean/luci-app-jd-dailybonus
 git clone https://github.com/jerrykuku/lua-maxminddb package/jerrykuku/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-argon-config package/jerrykuku/luci-app-argon-config
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/jerrykuku/luci-app-jd-dailybonus
