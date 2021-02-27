@@ -4,7 +4,7 @@
 
 
 ### 编译的设备
-ACRH17、竞斗云、R2S、ARMv8
+ACRH17、竞斗云、R2S、ARMv8(用于armbian系统的docker-openwrt）
 
 ### 固件主要内容
 OpenClash+Bypass+Passwall+Vssr     
