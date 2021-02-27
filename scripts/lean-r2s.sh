@@ -98,8 +98,6 @@ wget -qO- $clash_tun_url | gunzip -c > files/etc/openclash/core/clash_tun
 wget -qO- $clash_game_url | tar xOvz > files/etc/openclash/core/clash_game
 chmod +x files/etc/openclash/core/clash*
 
-# 加入N1安装至emmc的脚本
-git clone https://github.com/tuanqing/install-program package/install-program
 
 # preset terminal tools(oh-my-zsh)
 
